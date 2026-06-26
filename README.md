@@ -1,17 +1,33 @@
-# House Price Predictor
+# 🏡 House Price Prediction using XGBoost
 
-A Streamlit app that predicts house prices from housing features using a trained machine learning model.
+A machine learning web application that predicts California house prices based on property and location features.
 
-## Run locally
+## Features
+
+- XGBoost Regressor
+- Streamlit UI
+- Data preprocessing using Scikit-Learn Pipelines
+- OneHot Encoding
+- Standard Scaling
+- Interactive prediction interface
+
+## Tech Stack
+
+- Python
+- Pandas
+- Scikit-Learn
+- XGBoost
+- Streamlit
+- Joblib
+
+## Run Locally
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Deploy
+## Dataset
 
-- Streamlit Community Cloud: connect this repository and deploy the app.
-- Render / Railway / Hugging Face Spaces: use the same app entry point.
+California Housing Dataset
+
