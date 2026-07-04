@@ -5,7 +5,6 @@ A machine learning web application that predicts California house prices based o
 ## Features
 
 - XGBoost Regressor
-- Streamlit UI
 - Data preprocessing using Scikit-Learn Pipelines
 - OneHot Encoding
 - Standard Scaling
