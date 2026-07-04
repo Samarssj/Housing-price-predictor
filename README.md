@@ -2,6 +2,10 @@
 
 A machine learning web application that predicts California house prices based on property and location features.
 
+For sign up
+use-
+username- admin
+password- password
 ## Features
 
 - XGBoost Regressor
